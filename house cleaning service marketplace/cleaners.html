@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cleaners</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    h2 {
+      text-align: center;
+    }
+    
+    .cleaner {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-gap: 20px;
+      margin-top: 20px;
+    }
+    
+    .cleaner-item {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 10px;
+      text-align: center;
+      background-color: #f9f9f9;
+    }
+    
+    .cleaner-photo {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin: 0 auto 10px;
+      overflow: hidden;
+    }
+    
+    .cleaner-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Our Cleaners</h2>
+    <div class="cleaner">
+      <div class="cleaner-item">
+        <div class="cleaner-photo">
+          <img src="cleaner1.jpg" alt="Cleaner Photo">
+        </div>
+        <h3>John Doe</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel metus ut dolor consequat cursus.</p>
+      </div>
+      <div class="cleaner-item">
+        <div class="cleaner-photo">
+          <img src="cleaner2.jpg" alt="Cleaner Photo">
+        </div>
+        <h3>Jane Smith</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel metus ut dolor consequat cursus.</p>
+      </div>
+      <div class="cleaner-item">
+        <div class="cleaner-photo">
+          <img src="cleaner3.jpg" alt="Cleaner Photo">
+        </div>
+        <h3>Michael Johnson</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel metus ut dolor consequat cursus.</p>
+      </div>
+      <div class="cleaner-item">
+        <div class="cleaner-photo">
+          <img src="image 3.jpeg" alt="Cleaner Photo">
+        </div>
+        <h3>Emily Williams</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel metus ut dolor consequat cursus.</p>
+      </div>
+      <div class="cleaner-item">
+        <div class="cleaner-photo">
+          <img src="cleaner5.jpg" alt="Cleaner Photo">
+        </div>
+        <h3>David Brown</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel metus ut dolor consequat cursus.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

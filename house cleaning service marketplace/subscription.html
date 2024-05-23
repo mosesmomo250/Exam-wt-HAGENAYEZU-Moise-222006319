@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clean Home Subscriptions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .tiers {
+            margin-bottom: 40px;
+        }
+
+        .tier {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .tier h3 {
+            margin-top: 0;
+            color: #007bff;
+        }
+
+        .tier ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .tier li {
+            margin-bottom: 10px;
+        }
+
+        .tier .price {
+            font-weight: bold;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+        .benefits {
+            margin-bottom: 40px;
+        }
+
+        .testimonials {
+            margin-bottom: 40px;
+        }
+
+        .faq {
+            margin-bottom: 40px;
+        }
+
+        /* Custom Subscription Form Styles */
+.custom-subscription {
+    margin-bottom: 40px;
+}
+
+.custom-subscription form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.custom-subscription h2 {
+    color: #007bff;
+}
+
+.custom-subscription p {
+    margin-bottom: 20px;
+}
+
+.custom-subscription label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.custom-subscription input[type="text"],
+.custom-subscription select {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.custom-subscription button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.custom-subscription button:hover {
+    background-color: #0056b3;
+}
+
+        footer {
+            text-align: center;
+            background-color: transparent;
+            color: #fff;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>home cleaning subscription</h1>
+        
+    </header>
+    
+    <main>
+        <section class="tiers">
+            <h2>Choose Your Cleaning Plan</h2>
+            <p>Select the subscription that best fits your needs.</p>
+            <div class="tier">
+                <h3>Weekly Refresh</h3>
+                <ul>
+                    <li>Standard cleaning of all rooms</li>
+                    <li>Vacuuming and mopping floors</li>
+                    <li>Bathroom and kitchen sanitation</li>
+                    <li>Dusting furniture and surfaces</li>
+                    <li>1 Bedroom / 1 Bathroom - $<span class="price">50</span>/week</li>
+                </ul>
+                <a href="payment.php" class="btn">Subscribe</a>
+            </div>
+            <div class="tier">
+                <h3>Bi-Weekly Bliss</h3>
+                <ul>
+                    <li>Everything in Weekly Refresh +</li>
+                    <li>Deep cleaning of bathrooms (every other week)</li>
+                    <li>2 Bedrooms / 2 Bathrooms - $<span class="price">75</span>/bi-weekly</li>
+                </ul>
+                <a href="payment.php" class="btn">Subscribe</a>
+            </div>
+            <div class="tier">
+                <h3>Monthly Maintenance</h3>
+                <ul>
+                    <li>Everything in Bi-Weekly Bliss +</li>
+                    <li>Window cleaning (once a month)</li>
+                    <li>Oven cleaning (quarterly)</li>
+                    <li>3 Bedrooms / 3 Bathrooms - $<span class="price">100</span>/month</li>
+                </ul>
+                <a href="payment.php" href="#" class="btn">Subscribe</a>
+            </div>
+        </section>
+        <section class="benefits">
+            <h2>Why Subscribe?</h2>
+            <ul>
+                <li>Convenience: Regular cleaning without booking each time.</li>
+                <li>Savings: Discounted rates compared to one-time bookings.</li>
+                <li>Peace of Mind: Knowing your home is professionally cleaned.</li>
+                <li>Flexible: Upgrade or downgrade your plan anytime.</li>
+            </ul>
+        </section>
+        <section class="testimonials">
+            <h2>What People Say</h2>
+            <blockquote>"Clean Home Club has been a lifesaver! The weekly cleanings keep my house spotless, and it's so affordable." - Sarah M.</blockquote>
+            <blockquote>"The bi-weekly clean with deep bathroom cleaning is perfect. My weekends are free for relaxation, not chores!" - John D.</blockquote>
+        </section>
+        <section class="faq">
+            <h2>Frequently Asked Questions</h2>
+            <p>Click a question to expand the answer.</p>
+            <details>
+                <summary>Can I customize my subscription?</summary>
+                <p>Yes, you can contact us to discuss adding extra services like laundry or refrigerator cleaning.</p>
+            </details>
+            <details>
+                <summary>What is your cancellation policy?</summary>
+                <p>You can easily cancel your subscription online with no termination fees.</p>
+            </details>
+        </section>
+        <section class="custom-subscription">
+            <h2>Custom Subscription</h2>
+            <p>If you require a custom subscription plan, please fill out the form below:</p>
+            <form id="customSubscriptionForm" action="process_subscription.php" method="POST">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="username">Service:</label>
+                <input type="text" id="Service" name="Service" required>
+                <label for="period">Subscription Period:</label>
+                <select id="period" name="period" required>
+                    <option value="">Select Period</option>
+                    <option value="Weekly">Weekly</option>
+                    <option value="Bi-Weekly">Bi-Weekly</option>
+                    <option value="Monthly">Monthly</option>
+                </select>
+
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" required>
+                <button type="submit">Submit </button>
+
+
+    </main>
+    <footer>
+        <p>&copy; 2024 Clean Home Club</p>
+    </footer>
+</body>
+</html>
